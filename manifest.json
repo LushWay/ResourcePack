@@ -1,16 +1,28 @@
 {
-	"format_version": 2,
-	"header": {
-		"name": "X-API RP",
-		"uuid": "cd779cfb-89c5-4d17-90c7-2a032f5e221b",
-		"version": [5, 2, 1],
-		"min_engine_version": [1, 13, 0]
-	},
-	"modules": [
-		{
-			"type": "resources",
-			"uuid": "b1703952-e0d0-447b-9a3b-7db39f620d13",
-			"version": [0, 0, 0]
-		}
-	]
+  "format_version": 2,
+  "header": {
+    "name": "X-API RP",
+    "uuid": "cd779cfb-89c5-4d17-90c7-2a032f5e221b",
+    "version": [
+      5,
+      2,
+      10
+    ],
+    "min_engine_version": [
+      1,
+      13,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b1703952-e0d0-447b-9a3b-7db39f620d13",
+      "version": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
 }
