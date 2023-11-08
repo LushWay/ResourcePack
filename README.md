@@ -1,4 +1,6 @@
-# X-API-RP
+# Shp1nat Mine Resource Pack Source
+
+This source will be compressed and then packed to mcpack
 
 Update chestui dependency:
 
