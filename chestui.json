@@ -1,0 +1,12 @@
+{
+	"$schema": "../../node_modules/leafy-utils/gitdep.json",
+	"remote": {
+		"url": "https://github.com/Herobrine643928/Chest-UI",
+		"branch": "main",
+		"path": "RP"
+	},
+	"pathes": {
+		"ui/": "/ui/",
+		"textures/": "/textures/"
+	}
+}
