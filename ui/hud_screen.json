@@ -1,5 +1,39 @@
 {
 	"namespace": "hud",
+
+	// ADD MARKER
+	"marker": {
+		"type": "panel",
+		"size": [33, 33],
+		"controls": [
+			{
+				"hud_player": {
+					"type": "custom",
+					"renderer": "live_player_renderer",
+					"layer": 1
+				}
+			}
+		]
+	},
+	"root_panel": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": [
+					{
+						"marker@hud.marker": {
+							"offset": [-10, 2300],
+							"anchor_from": "center",
+							"anchor_to": "center"
+						}
+					}
+				]
+			}
+		]
+	},
+  // ADD MARKER END
+
 	"hud_actionbar_text": {
 		"type": "panel",
 		"size": ["100%cm", "100%c"],

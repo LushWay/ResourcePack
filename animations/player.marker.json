@@ -1,0 +1,25 @@
+// ADD MARKER
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.marker_position": {
+			"loop": true,
+			"bones": {
+				"marker": {
+					"scale": [
+						"q.property('sm:marker.scale')",
+						"q.property('sm:marker.scale')",
+						"q.property('sm:marker.scale')"
+					],
+					"rotation": [0, 0, 0],
+					"position": [
+						"5 + q.property('sm:marker.x')",
+						"1214 + q.property('sm:marker.y')",
+						0
+					]
+				}
+			}
+		}
+	}
+}
+// ADD MARKER END
