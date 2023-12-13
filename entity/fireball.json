@@ -4,21 +4,22 @@
 		"description": {
 			"identifier": "sm:fireball",
 			"materials": {
-				"default": "entity_alphatest"
+				"default": "fireball"
 			},
 			"textures": {
 				"default": "textures/items/fireball"
 			},
 			"geometry": {
-				"default": "geometry.item_sprite"
+				"default": "geometry.fireball"
 			},
-			"render_controllers": ["controller.render.item_sprite"],
 			"animations": {
-				"flying": "animation.actor.billboard"
+				"face_player": "animation.actor.billboard"
 			},
 			"scripts": {
-				"animate": ["flying"]
-			}
+				"scale": "0.5",
+				"animate": ["face_player"]
+			},
+			"render_controllers": ["controller.render.fireball"]
 		}
 	}
 }
