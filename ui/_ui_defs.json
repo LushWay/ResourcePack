@@ -1,5 +1,3 @@
 {
-	"ui_defs": [
-		"ui/chest_server_form.json"
-	]
+	"ui_defs": ["ui/chest_server_form.json"]
 }

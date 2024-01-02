@@ -1,44 +1,335 @@
+/*
+ * Copyright (c) 2020, moderna studio.
+ * All rights reserved.
+ */
+
 {
 	"namespace": "hud",
-
-	// ADD MARKER
-	"marker": {
+	"hud_spacer": {
 		"type": "panel",
-		"size": [33, 33],
+		"layer": 31,
+		"size": [10, 10]
+	},
+	"bg": {
+		"type": "image",
+		"size": ["100% + 12px", "100% + 5px"],
+		"layer": -1,
+		"alpha": 0.7,
+		"texture": "textures/ui/hud_tip_text_background"
+	},
+	"player_position": {
+		"ignored": true
+	},
+
+	"player_position_2": {
+		"type": "stack_panel",
+		"orientation": "horizontal",
+		"size": ["100%c", "100%c"],
+		"controls": [
+			{ "space_0@hud.hud_spacer": {} },
+			{
+				"preserved_title_display_2": {
+					"type": "label",
+					"anchor_from": "center",
+					"anchor_to": "center",
+					"layer": 31,
+					"offset": ["6px", 0],
+					"enable_profanity_filter": false,
+					"alpha": 1,
+					"text": "#position_text",
+					"controls": [
+						{
+							"bg@hud.bg": {}
+						}
+					],
+					"bindings": [
+						{
+							"binding_name": "#player_position_text",
+							"binding_name_override": "#position_text",
+							"binding_condition": "always_when_visible",
+							"binding_type": "global"
+						}
+					]
+				}
+			},
+			{ "space_1@hud.hud_spacer": {} }
+		],
+		"bindings": [
+			{
+				"binding_name": "#player_position_visible",
+				"binding_name_override": "#visible",
+				"binding_condition": "always",
+				"binding_type": "global"
+			}
+		]
+	},
+	// "hud_actionbar_text@hud.hud_c_tip_text": {
+	// 	"$update_string": "act",
+	// 	"$control": "hud_actionbar_text_color"
+	// },
+	// "hud_actionbar_text_control": {
+	// 	"type": "panel",
+	// 	"size": [0, 0],
+	// 	"bindings": [
+	// 		{
+	// 			"binding_name": "$actionbar_text"
+	// 		},
+	// 		{
+	// 			"binding_name": "$actionbar_text",
+	// 			"binding_name_override": "#preserved_text",
+	// 			"binding_condition": "visibility_changed"
+	// 		},
+	// 		{
+	// 			"binding_type": "view",
+	// 			"source_property_name": "(not ($actionbar_text = #preserved_text) and not (($actionbar_text - $update_string_actionbar) = $actionbar_text))",
+	// 			"target_property_name": "#visible"
+	// 		}
+	// 	]
+	// },
+	"tip_control_1": {
+		"type": "panel",
+		"size": [0, 0],
+		"bindings": [
+			{
+				"binding_name": "#hud_title_text_string"
+			},
+			{
+				"binding_name": "#hud_title_text_string",
+				"binding_name_override": "#preserved_text",
+				"binding_condition": "visibility_changed"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string_1) = #hud_title_text_string))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+
+	"tip_control_2": {
+		"type": "panel",
+		"size": [0, 0],
+		"bindings": [
+			{
+				"binding_name": "#hud_title_text_string"
+			},
+			{
+				"binding_name": "#hud_title_text_string",
+				"binding_name_override": "#preserved_text",
+				"binding_condition": "visibility_changed"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string_2) = #hud_title_text_string))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"tip_control_3": {
+		"type": "panel",
+		"size": [0, 0],
+		"bindings": [
+			{
+				"binding_name": "#hud_title_text_string"
+			},
+			{
+				"binding_name": "#hud_title_text_string",
+				"binding_name_override": "#preserved_text",
+				"binding_condition": "visibility_changed"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string_3) = #hud_title_text_string))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"tip_control_4": {
+		"type": "panel",
+		"size": [0, 0],
+		"bindings": [
+			{
+				"binding_name": "#hud_title_text_string"
+			},
+			{
+				"binding_name": "#hud_title_text_string",
+				"binding_name_override": "#preserved_text",
+				"binding_condition": "visibility_changed"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string_4) = #hud_title_text_string))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"tip_control_5": {
+		"type": "panel",
+		"size": [0, 0],
+		"bindings": [
+			{
+				"binding_name": "#hud_title_text_string"
+			},
+			{
+				"binding_name": "#hud_title_text_string",
+				"binding_name_override": "#preserved_text",
+				"binding_condition": "visibility_changed"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string_5) = #hud_title_text_string))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"tip_control_sidebar": {
+		"type": "panel",
+		"size": [0, 0],
+		"bindings": [
+			{
+				"binding_name": "#hud_title_text_string"
+			},
+			{
+				"binding_name": "#hud_title_text_string",
+				"binding_name_override": "#preserved_text",
+				"binding_condition": "visibility_changed"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string_sidebar) = #hud_title_text_string))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"hud_c_tip": {
+		"$control": "",
+		"$preserved": "",
+		"type": "stack_panel",
+		"orientation": "horizontal",
+		"size": ["100%c", "100%c"],
+		"controls": [
+			{ "space_0@hud.hud_spacer": {} },
+			{
+				"preserved_title_display": {
+					"type": "label",
+					"anchor_from": "center",
+					"anchor_to": "center",
+					"layer": 31,
+					"offset": ["6px", 0],
+					"enable_profanity_filter": false,
+					"text": "#text_0",
+					"controls": [
+						{
+							"bg@hud.bg": {}
+						}
+					],
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "$control",
+							// Remove update string
+							"source_property_name": "(('§z' + #preserved_text) - $preserved)",
+							"target_property_name": "#text_0"
+						}
+					]
+				}
+			},
+			{ "space_1@hud.hud_spacer": {} }
+		],
+		"bindings": [
+			{
+				"binding_type": "view",
+				"source_control_name": "$control",
+				// If empty set visible to false
+				"source_property_name": "(not (('b' + #preserved_text) - $preserved = 'b'))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+
+	"main_hud": {
+		"type": "stack_panel",
+		"orientation": "horizontal",
+
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+		"offset": [0, "10px"],
 		"controls": [
 			{
-				"hud_player": {
-					"type": "custom",
-					"renderer": "live_player_renderer",
-					"layer": 1
+				"hud_c_tip_1@hud.hud_c_tip": {
+					"$control": "tip_control_1",
+					"$preserved": "$update_string_1"
 				}
-			}
-		]
-	},
-	"root_panel": {
-		"modifications": [
+			},
 			{
-				"array_name": "controls",
-				"operation": "insert_front",
-				"value": [
-					{
-						"marker@hud.marker": {
-							"offset": [-10, 2300],
-							"anchor_from": "center",
-							"anchor_to": "center"
-						}
-					}
-				]
+				"hud_c_tip_2@hud.hud_c_tip": {
+					"$control": "tip_control_2",
+					"$preserved": "$update_string_2"
+				}
+			},
+			{
+				"hud_c_tip_3@hud.hud_c_tip": {
+					"$control": "tip_control_3",
+					"$preserved": "$update_string_3"
+				}
+			},
+			{
+				"hud_c_tip_4@hud.hud_c_tip": {
+					"$control": "tip_control_4",
+					"$preserved": "$update_string_4"
+				}
+			},
+			{
+				"hud_c_tip_5@hud.hud_c_tip": {
+					"$control": "tip_control_5",
+					"$preserved": "$update_string_5"
+				}
+			},
+			{
+				"hud_c_tip_3@hud.player_position_2": {}
 			}
 		]
 	},
-  // ADD MARKER END
-
-	"hud_actionbar_text": {
+	"hud_title_text": {
+		"offset": [0, -16]
+	},
+	"hud_title_text/title_frame/title": {
+		"font_size": "large"
+	},
+	"hud_title_text/subtitle_frame/subtitle": {
+		"font_size": "medium",
+		"offset": [1, 16]
+	},
+	"hud_title_text/title_frame": {
+		"bindings": [
+			{
+				"binding_name": "#hud_title_text_string",
+				"binding_name_override": "#ha",
+				"binding_type": "global"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(#ha - '§t§i§p') = #ha",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"hud_c_tip_sidebar": {
 		"type": "panel",
 		"size": ["100%cm", "100%c"],
-		"anchor_from": "top_right",
-		"anchor_to": "top_right",
+		"anchor_from": "right_middle",
+		"anchor_to": "right_middle",
+		"$control": "tip_control_sidebar",
+
+		"$preserved": "$update_string_sidebar",
+		"bindings": [
+			{
+				"binding_type": "view",
+				"source_control_name": "$control",
+				"source_property_name": "( not ( ('b' + #preserved_text) - $preserved = 'b'))",
+				"target_property_name": "#visible"
+			}
+		],
 		"controls": [
 			{
 				"sidebar_panel": {
@@ -48,12 +339,13 @@
 					"anchor_to": "right_middle",
 					"size": ["100%c", "100%cm"],
 					"alpha": 1,
+
 					"controls": [
 						{
 							"sidebar_background": {
 								"type": "image",
-								"size": ["100%c - 70px", "100%c - 30px"],
-								"texture": "textures/ui/Black",
+								"size": ["100%c - 55px + 6px", "115%c"],
+								"texture": "textures/ui/hud_tip_text_background",
 								"alpha": 0.5,
 								"controls": [
 									{
@@ -62,23 +354,31 @@
 											"texture": "textures/ui/title",
 											"anchor_from": "top_middle",
 											"anchor_to": "top_middle",
-											"size": [70, 30],
-											"offset": [0, 0],
+											"size": [55, 25],
+											"offset": [0, 6],
 											"layer": 2
 										}
 									},
 									{
 										"text": {
 											"type": "label",
-											"text": "$actionbar_text",
-											"anchor_from": "left",
-											"anchor_to": "left",
+											"text": "#text_0",
+											"bindings": [
+												{
+													"binding_type": "view",
+													"source_control_name": "$control",
+													"source_property_name": "( ('§z' + #preserved_text) - $preserved)",
+													"target_property_name": "#text_0"
+												}
+											],
+											"anchor_from": "top_middle",
+											"anchor_to": "top_middle",
 											"color": "$tool_tip_text",
 											"text_alignment": "left",
 											"layer": 2,
 											"localize": false,
 											"font_size": "medium",
-											"offset": [0, 30],
+											"offset": [0, 36],
 											"alpha": 2
 										}
 									}
@@ -90,15 +390,42 @@
 			}
 		]
 	},
-	"anim_actionbar_text_alpha_out": {
-		"anim_type": "wait",
-		"duration": 9999999999,
-		"next": "@hud.anim_actionbar_text_alpha_out"
-	},
 
-	"anim_actionbar_text_background_alpha_out": {
-		"anim_type": "wait",
-		"duration": 9999999999,
-		"next": "@hud.anim_actionbar_text_background_alpha_out"
+	"root_panel": {
+		"$update_string_sidebar": "§t§i§psidebar",
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": [
+					{
+						"panel": {
+							"$update_string_1": "§t§i§p1",
+							"$update_string_2": "§t§i§p2",
+							"$update_string_3": "§t§i§p3",
+							"$update_string_4": "§t§i§p4",
+							"$update_string_5": "§t§i§p5",
+							"type": "panel",
+							"size": ["100%c", "100%c"],
+							"anchor_from": "center",
+							"anchor_to": "center",
+							"controls": [
+								{ "tip_control_1@hud.tip_control_1": {} },
+								{ "tip_control_2@hud.tip_control_2": {} },
+								{ "tip_control_3@hud.tip_control_3": {} },
+								{ "tip_control_4@hud.tip_control_4": {} },
+								{ "tip_control_5@hud.tip_control_5": {} },
+								{ "tip_control_sidebar@hud.tip_control_sidebar": {} },
+								{ "main_hud@hud.main_hud": {} }
+							]
+						}
+					},
+					{ "tip_control_sidebar@hud.tip_control_sidebar": {} },
+					{
+						"hud_sidebar@hud.hud_c_tip_sidebar": {}
+					}
+				]
+			}
+		]
 	}
 }

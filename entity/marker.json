@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sm:marker",
+			"materials": {
+				"default": "camera_facing_entity"
+			},
+			"textures": {
+				"default": "textures/markers/orange",
+				"green": "textures/markers/green"
+			},
+			"geometry": {
+				"default": "geometry.sm.marker"
+			},
+			"render_controllers": [
+				{
+					"controller.render.default": true //"q.property('sm:marker.enabled')"
+				}
+			]
+		}
+	}
+}

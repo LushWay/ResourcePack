@@ -12,20 +12,15 @@
 			},
 			"bones": [
 				{
-					"name": "head",
-					"pivot": [0, 28, 0]
-				},
-				{
 					"name": "marker",
-					"parent": "head",
-					"pivot": [0, 0, 1],
+					"pivot": [0, 0, 0],
 					"cubes": [
 						{
 							"origin": [-8, -8, 1],
 							"size": [16, 16, 0],
 							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [16, 16]},
-								"east": {"uv": [0, 0], "uv_size": [16, 16]}
+								"north": { "uv": [0, 0], "uv_size": [16, 16] },
+								"east": { "uv": [0, 0], "uv_size": [16, 16] }
 							}
 						}
 					]
