@@ -1,7 +1,7 @@
 enchantment.level.1=§c█§7████ §f1	#§r
 enchantment.level.2=§g██§7███ §f2	#§r
 enchantment.level.3=§b███§7██	§f3 #§r
-enchantment.level.4=§2████§7█	§f4 #§r
+enchantment.level.4=§2████§7█	§f4 #§rtest
 enchantment.level.5=§a███████	§f5 #§r
 
 commands.reload.success=§9│	#§r
