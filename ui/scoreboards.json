@@ -4,5 +4,9 @@
 	"scoreboard_sidebar": {
 		"anchor_from": "left_middle",
 		"anchor_to": "left_middle"
+	},
+	"scoreboard_sidebar/main": {
+		"texture": "textures/ui/hud_tip_text_background",
+		"alpha": 0.5
 	}
 }
