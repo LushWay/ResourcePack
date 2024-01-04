@@ -41,7 +41,7 @@
 			}
 		]
 	},
-	"custom_form@common_dialogs.main_panel_no_buttons": {
+	"custom_form": {
 		"size": [300, 250]
 	}
 }

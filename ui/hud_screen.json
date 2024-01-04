@@ -76,7 +76,7 @@
 					"anchor_from": "center",
 					"anchor_to": "center",
 					"layer": 31,
-					"offset": ["6px", 0],
+					"offset": ["10px", 0],
 					"enable_profanity_filter": false,
 					"text": "#text_0",
 					"controls": [
