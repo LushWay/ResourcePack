@@ -181,9 +181,9 @@
 		"type": "stack_panel",
 		"orientation": "horizontal",
 
-		"anchor_from": "right_middle",
+		"anchor_from": "top_middle",
 		"anchor_to": "top_middle",
-		"offset": [0, "10px"],
+		"offset": [0, "6px"],
 		"controls": [
 			{
 				"hud_c_tip_3@hud.player_position_2": {}
