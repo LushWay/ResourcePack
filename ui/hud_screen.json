@@ -1,6 +1,9 @@
 /*
+ * Copyright (c) 2024, Leaftail1880 and Shp1natMine contributors
  * Copyright (c) 2020, moderna studio.
  * All rights reserved.
+ *
+ * TODO Maybe move all same displays into factory
  */
 
 {
