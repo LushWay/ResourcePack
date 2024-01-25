@@ -189,7 +189,7 @@
 		"offset": [0, "6px"],
 		"controls": [
 			{
-				"hud_c_tip_3@hud.player_position_2": {}
+				"player_position@hud.player_position_2": {}
 			},
 			{
 				"hud_c_tip_1@hud.hud_c_tip": {
