@@ -18,7 +18,7 @@
 						},
 						{
 							"binding_type": "view",
-							"source_property_name": "(not ((#title_text - '§c§o§m§m§o§n') = #title_text))",
+							"source_property_name": "(not ((#title_text - '§c§o§m§m§o§n§r') = #title_text))",
 							"target_property_name": "#visible"
 						}
 					]
@@ -48,7 +48,7 @@
 						},
 						{
 							"binding_type": "view",
-							"source_property_name": "(not ((#title_text - '§n§p§c') = #title_text))",
+							"source_property_name": "(not ((#title_text - '§n§p§c§r') = #title_text))",
 							"target_property_name": "#visible"
 						}
 					]
