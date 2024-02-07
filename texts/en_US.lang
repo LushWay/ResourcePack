@@ -10,5 +10,5 @@ map.position=XYZ: §c%s, §a%s, §b%s	#§r
 
 multiplayer.player.joined=§a+ §7%s	#§r
 multiplayer.player.left=§c- §7%s	#§r
-multiplayer.player.changeToPersona=§7%s §8Скин сменён	#§r
-multiplayer.player.changeToSkin=§7%s §8Скин сменён на внешний	#§r
+multiplayer.player.changeToPersona=§7%s §8Skin changed	#§r
+multiplayer.player.changeToSkin=§7%s §8Skin changed to external	#§r
