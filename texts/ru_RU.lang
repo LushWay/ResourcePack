@@ -1,9 +1,9 @@
-enchantment.level.1=§c█§7████ §f1	#§r
-enchantment.level.2=§g██§7███ §f2	#§r
-enchantment.level.3=§b███§7██	§f3 #§r
-enchantment.level.4=§2████§7█	§f4 #§r
-enchantment.level.5=§a███████	§f5 #§r
-
+enchantment.level.1=§c█§7████ §f1	#
+enchantment.level.2=§g██§7███ §f2	#
+enchantment.level.3=§b███§7██ §f3	#
+enchantment.level.4=§2████§7█ §f4	#
+enchantment.level.5=§a███████ §f5	#
+  
 commands.reload.success=§9│	#§r
 
 map.position=XYZ: §c%s, §a%s, §b%s	#§r
