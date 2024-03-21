@@ -1,3 +1,8 @@
 {
-  "ui_defs": ["ui/chest_server_form.json", "ui/npc_dialogue_custom.json"]
+	"ui_defs": [
+		"ui/chest_server_form.json",
+		"ui/npc_dialogue_custom.json",
+		"ui/custom_server_form.json",
+		"ui/grid_button_action_form.json"
+	]
 }
