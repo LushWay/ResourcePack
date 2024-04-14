@@ -1,0 +1,11 @@
+{
+	"namespace": "common",
+	"screen_background": {
+		"type": "image",
+		"texture": "textures/ui/screen_background",
+		"layer": -10,
+		"ignored": "$is_holographic",
+		"$screen_background_alpha|default": 0.2,
+		"alpha": "$screen_background_alpha"
+	}
+}
