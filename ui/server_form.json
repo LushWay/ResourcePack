@@ -103,6 +103,10 @@
 		"end_event": "screen.exit_end"
 	},
 
+	"custom_form@common_dialogs.main_panel_no_buttons": {
+		"size": [300, 250]
+	},
+
 	"custom_input@settings_common.option_text_edit": {
 		"$max_text_edit_length": 300
 	},
@@ -174,6 +178,7 @@
 				}
 			},
 			{
+				// ACTUAL CHANGES STARTS HERE, button now dark
 				"form_button@common_buttons.dark_text_button": {
 					"$pressed_button_name": "button.form_button_click",
 					"anchor_from": "top_left",
