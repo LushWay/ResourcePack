@@ -144,7 +144,7 @@
 								"anchor_from": "top_left",
 								"anchor_to": "top_left",
 								"size": [70, 70],
-								"$button_text": "",
+								"$button_text": "#null",
 								"$button_text_binding_type": "collection",
 								"$button_text_grid_collection_name": "form_buttons",
 								"$button_text_max_size": ["100%", 20],

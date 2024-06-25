@@ -66,8 +66,8 @@
 
 	"hud_c_tip": {
 		// Should be defined from tree above
-		// "$control": "",
-		// "$preserved": "",
+		// "$control": "#null",
+		// "$preserved": "#null",
 		"type": "stack_panel",
 		"orientation": "horizontal",
 		"size": ["100%c", "100%c"],
@@ -180,17 +180,16 @@
 		"$update_string": "$update_string_sidebar"
 	},
 
-	"hud_tips": {
+	"hud_tips_top_right": {
 		"type": "stack_panel",
 		"orientation": "horizontal",
 
 		"anchor_from": "top_right",
 		"anchor_to": "top_right",
 		"offset": [0, "6px"],
+		"size": ["100%cm", "100%cm"],
+
 		"controls": [
-			{
-				"player_position@hud.player_position_2": {}
-			},
 			{
 				"hud_c_tip_1@hud.hud_c_tip": {
 					"$control": "tip_control_1",
@@ -202,7 +201,57 @@
 					"$control": "tip_control_2",
 					"$preserved": "$update_string_2"
 				}
-			},
+			}
+		]
+	},
+
+	"hud_tips_top_left": {
+		"type": "stack_panel",
+		"orientation": "horizontal",
+
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"size": ["100%cm", "100%cm"],
+
+		"offset": [0, "6px"],
+		"controls": [
+			{
+				"player_position@hud.player_position_2": {}
+			}
+		]
+	},
+
+	"hud_tips_bottom_right": {
+		"type": "stack_panel",
+		"orientation": "horizontal",
+
+		"anchor_from": "bottom_right",
+		"anchor_to": "bottom_right",
+		"size": ["100%cm", "100%cm"],
+
+		"offset": [0, "10px"],
+		"controls": [
+			{
+				"hud_c_tip_5@hud.hud_c_tip": {
+					"$control": "tip_control_5",
+					"$preserved": "$update_string_5",
+					"anchor_from": "bottom_right",
+					"anchor_to": "bottom_right"
+				}
+			}
+		]
+	},
+
+	"hud_tips_bottom_left": {
+		"type": "stack_panel",
+		"orientation": "horizontal",
+
+		"anchor_from": "bottom_left",
+		"anchor_to": "bottom_left",
+		"size": ["100%cm", "100%cm"],
+
+		"offset": [0, "10px"],
+		"controls": [
 			{
 				"hud_c_tip_3@hud.hud_c_tip": {
 					"$control": "tip_control_3",
@@ -213,12 +262,6 @@
 				"hud_c_tip_4@hud.hud_c_tip": {
 					"$control": "tip_control_4",
 					"$preserved": "$update_string_4"
-				}
-			},
-			{
-				"hud_c_tip_5@hud.hud_c_tip": {
-					"$control": "tip_control_5",
-					"$preserved": "$update_string_5"
 				}
 			}
 		]
@@ -340,31 +383,30 @@
 	"root_panel": {
 		"$update_string_sidebar": "§t§i§psidebar",
 		"$update_string_title": "title",
+		"$update_string_1": "§t§i§p1",
+		"$update_string_2": "§t§i§p2",
+		"$update_string_3": "§t§i§p3",
+		"$update_string_4": "§t§i§p4",
+		"$update_string_5": "§t§i§p5",
 		"modifications": [
 			{
 				"array_name": "controls",
 				"operation": "insert_front",
 				"value": [
 					{ "title_control@hud.title_control": {} },
-					{
-						"panel": {
-							"$update_string_1": "§t§i§p1",
-							"$update_string_2": "§t§i§p2",
-							"$update_string_3": "§t§i§p3",
-							"$update_string_4": "§t§i§p4",
-							"$update_string_5": "§t§i§p5",
-							"type": "panel",
-							"controls": [
-								{ "tip_control_1@hud.tip_control_1": {} },
-								{ "tip_control_2@hud.tip_control_2": {} },
-								{ "tip_control_3@hud.tip_control_3": {} },
-								{ "tip_control_4@hud.tip_control_4": {} },
-								{ "tip_control_5@hud.tip_control_5": {} },
-								{ "tip_control_sidebar@hud.tip_control_sidebar": {} },
-								{ "hud_tips@hud.hud_tips": {} }
-							]
-						}
-					},
+					{ "tip_control_1@hud.tip_control_1": {} },
+					{ "tip_control_2@hud.tip_control_2": {} },
+					{ "tip_control_3@hud.tip_control_3": {} },
+					{ "tip_control_4@hud.tip_control_4": {} },
+					{ "tip_control_5@hud.tip_control_5": {} },
+
+					{ "tip_control_sidebar@hud.tip_control_sidebar": {} },
+
+					{ "hud_tips@hud.hud_tips_top_right": {} },
+					{ "hud_tips2@hud.hud_tips_top_left": {} },
+
+					{ "hud_tips3@hud.hud_tips_bottom_right": {} },
+					{ "hud_tips4@hud.hud_tips_bottom_left": {} },
 					{ "tip_control_sidebar@hud.tip_control_sidebar": {} },
 					{
 						"hud_sidebar@hud.hud_c_tip_sidebar": {}
