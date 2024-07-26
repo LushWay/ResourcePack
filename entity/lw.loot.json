@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lw:loot",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/loot"
+      },
+      "geometry": {
+        "default": "geometry.lw.loot"
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}
