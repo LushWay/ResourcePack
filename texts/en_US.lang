@@ -12,3 +12,6 @@ multiplayer.player.joined=§a+ §7%s	#§r
 multiplayer.player.left=§c- §7%s	#§r
 multiplayer.player.changeToPersona=§7%s §8Skin changed	#§r
 multiplayer.player.changeToSkin=§7%s §8Skin changed to external	#§r
+
+entity.lw:cannon.name=§6Cannon
+item.spawn_egg.entity.lw:cannon.name=§6Place Cannon
