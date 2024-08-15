@@ -7,7 +7,7 @@
         "long_form@common_dialogs.main_panel_no_buttons": {
           "$title_panel": "common_dialogs.standard_title_label",
           "$title_size": ["100% - 14px", 10],
-          "size": [300, 250],
+          "size": [300, 270],
           "$text_name": "#title_text",
           "$title_text_binding_type": "none",
           "$child_control": "server_form.long_form_panel",
@@ -57,7 +57,6 @@
       {
         "custom@custom_server_form.panel": {
           "layer": 2,
-          "size": [330, "100%c"],
           "bindings": [
             {
               "binding_name": "#title_text"
@@ -104,7 +103,7 @@
   },
 
   "custom_form@common_dialogs.main_panel_no_buttons": {
-    "size": [300, 250]
+    "size": [300, 270]
   },
 
   "custom_input@settings_common.option_text_edit": {
@@ -120,84 +119,62 @@
       {
         "panel_name": {
           "type": "panel",
-          "size": [34, 32],
-          "bindings": [
-            {
-              "binding_type": "view",
-              "source_control_name": "image",
-              "resolve_sibling_scope": true,
-              "source_property_name": "(not (#texture = ''))",
-              "target_property_name": "#visible"
-            }
-          ],
+          "size": ["100%cm", "100%cm"],
 
           "controls": [
             {
               "image": {
-                "type": "panel",
-                "layer": 2,
+                "type": "image",
                 "size": [32, 32],
-                "offset": [-2, 0],
-                "controls": [
+                "bindings": [
                   {
-                    "item_block@beacon.item_renderer": {
-                      "size": [32, 32],
-                      "layer": 200,
-                      "offset": [0, 0],
-                      "bindings": [
-                        {
-                          "binding_name": "#form_button_texture",
-                          "binding_name_override": "#texture",
-                          "binding_type": "collection",
-                          "binding_collection_name": "form_buttons"
-                        },
-                        {
-                          "binding_name": "#null",
-                          "binding_type": "view",
-                          "source_property_name": "(not (('%.8s' * #texture) = 'textures'))",
-                          "target_property_name": "#visible"
-                        },
-                        {
-                          "binding_name": "#null",
-                          "binding_type": "view",
-                          "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
-                          "target_property_name": "#visible"
-                        },
-                        {
-                          "binding_name": "#null",
-                          "binding_type": "view",
-                          "source_property_name": "(#texture * 1)",
-                          "target_property_name": "#item_id_aux"
-                        }
-                      ]
-                    }
+                    "binding_name": "#form_button_texture",
+                    "binding_name_override": "#texture",
+                    "binding_type": "collection",
+                    "binding_collection_name": "form_buttons"
                   },
                   {
-                    "non_renderer_item": {
-                      "type": "image",
-                      "size": [32, 32],
-                      "offset": [0, 0],
-                      "bindings": [
-                        {
-                          "binding_name": "#form_button_texture",
-                          "binding_name_override": "#texture",
-                          "binding_type": "collection",
-                          "binding_collection_name": "form_buttons"
-                        },
-                        {
-                          "binding_name": "#null",
-                          "binding_type": "view",
-                          "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
-                          "target_property_name": "#visible"
-                        },
-                        {
-                          "binding_name": "#null",
-                          "binding_type": "view",
-                          "source_property_name": "(('%.8s' * #texture) = 'textures')",
-                          "target_property_name": "#visible"
-                        }
-                      ]
-                    }
+                    "binding_name": "#null",
+                    "binding_type": "view",
+                    "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+                    "target_property_name": "#visible"
+                  },
+                  {
+                    "binding_name": "#null",
+                    "binding_type": "view",
+                    "source_property_name": "(('%.8s' * #texture) = 'textures')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "item_block@beacon.item_renderer": {
+                "size": [32, 32],
+                "bindings": [
+                  {
+                    "binding_name": "#form_button_texture",
+                    "binding_name_override": "#texture",
+                    "binding_type": "collection",
+                    "binding_collection_name": "form_buttons"
+                  },
+                  {
+                    "binding_name": "#null",
+                    "binding_type": "view",
+                    "source_property_name": "(not (('%.8s' * #texture) = 'textures'))",
+                    "target_property_name": "#visible"
+                  },
+                  {
+                    "binding_name": "#null",
+                    "binding_type": "view",
+                    "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+                    "target_property_name": "#visible"
+                  },
+                  {
+                    "binding_name": "#null",
+                    "binding_type": "view",
+                    "source_property_name": "(#texture * 1)",
+                    "target_property_name": "#item_id_aux"
                   }
                 ]
               }

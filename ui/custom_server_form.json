@@ -2,7 +2,7 @@
   "namespace": "custom_server_form",
   "panel": {
     "type": "image",
-    "size": ["100%с", "100%c"],
+    "size": [300, 270],
     "texture": "textures/ui/Dark",
     "layer": 3,
     "controls": [
@@ -16,18 +16,17 @@
       },
       {
         "title": {
-          "offset": [0, 6],
+          "offset": [0, 3],
           "type": "label",
           "text": "#title_text",
           "font_type": "MinecraftTen",
-          "font_size": "big",
+          "font_size": "large",
           "text_alignment": "center",
           "anchor_from": "top_middle",
           "layer": 4,
           "anchor_to": "top_middle"
         }
       },
-
       {
         "second": {
           "type": "panel",
@@ -38,40 +37,29 @@
           "layer": 10,
           "controls": [
             {
-              "scrolling_panel@common.scrolling_panel": {
-                "anchor_to": "top_left",
+              "long_form_dynamic_buttons_panel": {
+                "type": "grid",
+                "offset": [0, 6],
+                "size": ["100%с", "100%c"],
                 "anchor_from": "top_left",
-                "$show_background": false,
-                "size": ["100%", "100%"],
-                "$scrolling_content": "custom_server_form.long_form_dynamic_buttons_panel",
-                "$scroll_size": [5, "100% - 4px"],
-                "$scrolling_pane_size": ["100% - 4px", "100% - 2px"],
-                "$scrolling_pane_offset": [2, 0],
-                "$scroll_bar_right_padding_size": [0, 0]
+                "anchor_to": "top_left",
+                "grid_rescaling_type": "horizontal",
+                "grid_item_template": "custom_server_form.custom_button",
+                "collection_name": "form_buttons",
+                "factory": {
+                  "name": "buttons",
+                  "control_name": "custom_server_form.custom_button"
+                },
+                "bindings": [
+                  {
+                    "binding_name": "#form_button_length",
+                    "binding_name_override": "#maximum_grid_items"
+                  }
+                ]
               }
             }
           ]
         }
-      }
-    ]
-  },
-  "long_form_dynamic_buttons_panel": {
-    "type": "grid",
-    "offset": [2, 16],
-    "size": ["100%с", "100%c"],
-    "anchor_from": "top_left",
-    "anchor_to": "top_left",
-    "grid_rescaling_type": "horizontal",
-    "grid_item_template": "custom_server_form.custom_button",
-    "collection_name": "form_buttons",
-    "factory": {
-      "name": "buttons",
-      "control_name": "custom_server_form.custom_button"
-    },
-    "bindings": [
-      {
-        "binding_name": "#form_button_length",
-        "binding_name_override": "#maximum_grid_items"
       }
     ]
   },
