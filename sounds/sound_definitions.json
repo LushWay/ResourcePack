@@ -1,0 +1,21 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "lw.pay": {
+      "category": "ui",
+      "sounds": ["sounds/pay-1", "sounds/pay-2", "sounds/pay-3", "sounds/pay-4"]
+    },
+    "lw.radiation": {
+      "category": "ui",
+      "sounds": ["sounds/radiation"]
+    },
+    "lw.success": {
+      "category": "ui",
+      "sounds": ["sounds/success"]
+    },
+    "lw.zone_enter": {
+      "category": "ui",
+      "sounds": ["sounds/zone_enter"]
+    }
+  }
+}
