@@ -1,14 +1,4 @@
-enchantment.level.1=§c▌§7▌▌▌▌ §f1	#
-enchantment.level.2=§g▌▌§7▌▌▌ §f2	#
-enchantment.level.3=§b▌▌▌§7▌▌ §f3	#
-enchantment.level.4=§2▌▌▌▌§7▌ §f4	#
-enchantment.level.5=§a▌▌▌▌▌▌▌ §f5	#
-enchantment.level.6=§4▌▌▌▌▌▌▌▌§7▌▌▌▌ §f6	#
-enchantment.level.7=§5▌▌▌▌▌▌▌▌▌§7▌▌▌ §f7	#
-enchantment.level.8=§9▌▌▌▌▌▌▌▌▌▌§7▌▌ §f8	#
-enchantment.level.9=§6▌▌▌▌▌▌▌▌▌▌▌§7▌ §f9	#
-enchantment.level.10=§a▌▌▌▌▌▌▌▌▌▌▌▌▌▌ §f10	#
-  
+
 commands.reload.success=§9│	#§r
 
 map.position=XYZ: §c%s, §a%s, §b%s	#§r
@@ -26,3 +16,66 @@ raid.progress=Осталось мобов:	#
 raid.expiry=Рэйд закончился	#
 raid.victory=Победа	#
 raid.defeat=Поражение	#
+
+enchantment.mending=§7Починка	#
+enchantment.durability=§7Неразрушимость	#
+enchantment.curse.binding=Проклятие связи	#
+enchantment.curse.vanishing=Проклятие утраты	#
+
+enchantment.arrowDamage=§fСила	#
+enchantment.arrowFire=§7Воспламенение	#
+enchantment.arrowInfinite=§7Бесконечность	#
+enchantment.arrowKnockback=§7Откидывание	#
+
+enchantment.crossbowPiercing=§fПронзающая стрела	#
+enchantment.crossbowMultishot=§7Тройной выстрел	#
+enchantment.crossbowQuickCharge=§7Быстрая перезарядка	#
+
+
+enchantment.damage.all=§fОстрота	#
+enchantment.lootBonus=§7Добыча	#
+enchantment.knockback=§7Отдача	#
+enchantment.fire=§7Заговор огня	#
+enchantment.damage.arthropods=§7Бич членистоногих	#
+enchantment.damage.undead=§7Небесная кара	#
+
+enchantment.digging=§fЭффективность	#
+enchantment.lootBonusDigger=§7Удача	#
+enchantment.untouching=§7Шелковое касание	#
+
+enchantment.fishingSpeed=§7Приманка	#
+enchantment.lootBonusFishing=§7Везучий рыбак	#
+
+enchantment.heavy_weapon.breach=§fПробитие	#
+enchantment.heavy_weapon.density=§7Плотность	#
+enchantment.heavy_weapon.windburst=§7Порыв ветра	#
+
+enchantment.protect.all=§fЗащита	#
+enchantment.oxygen=§7Подводное дыхание	#
+enchantment.protect.explosion=§7Взрывоустойчивость	#
+enchantment.protect.fall=§7Невесомость	#
+enchantment.protect.fire=§7Огнеупорность	#
+enchantment.protect.projectile=§7Защита от снарядов	#
+enchantment.frostwalker=§7Ледоход	#
+enchantment.soul_speed=§7Скорость души	#
+enchantment.swift_sneak=§7Быстрое подкрадывание	#
+enchantment.thorns=§7Шипы	#
+enchantment.waterWalker=§7Подводная ходьба	#
+enchantment.waterWorker=§7Подводник	#
+
+enchantment.tridentChanneling=§7Громовержец	#
+enchantment.tridentLoyalty=§7Верность	#
+enchantment.tridentRiptide=§7Тягун	#
+enchantment.tridentImpaling=§7Пронзание	#
+
+enchantment.level.1=§c▌§7▌▌▌▌ §f1	#
+enchantment.level.2=§g▌▌§7▌▌▌ §f2	#
+enchantment.level.3=§b▌▌▌§7▌▌ §f3	#
+enchantment.level.4=§2▌▌▌▌§7▌ §f4	#
+enchantment.level.5=§a▌▌▌▌▌▌▌ §f5	#
+enchantment.level.6=§4▌▌▌▌▌▌▌▌§7▌▌▌▌ §f6	#
+enchantment.level.7=§5▌▌▌▌▌▌▌▌▌§7▌▌▌ §f7	#
+enchantment.level.8=§9▌▌▌▌▌▌▌▌▌▌§7▌▌ §f8	#
+enchantment.level.9=§6▌▌▌▌▌▌▌▌▌▌▌§7▌ §f9	#
+enchantment.level.10=§a▌▌▌▌▌▌▌▌▌▌▌▌▌▌ §f10	#
+  
