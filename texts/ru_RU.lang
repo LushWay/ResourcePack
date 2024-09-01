@@ -1,15 +1,11 @@
-
-commands.reload.success=§9│	#§r
-
-map.position=XYZ: §c%s, §a%s, §b%s	#§r
-
-multiplayer.player.joined=§a+ §7%s	#§r
-multiplayer.player.left=§c- §7%s	#§r
-multiplayer.player.changeToPersona=§7%s §8Скин сменён	#§r
-multiplayer.player.changeToSkin=§7%s §8Скин сменён на внешний	#§r
-
 entity.lw:cannon.name=§6Пушка
-item.spawn_egg.entity.lw:cannon.name=§6Поставить пушку
+item.spawn_egg.entity.lw:cannon.name=§6Пушка
+item.lw:cannon_shell=§6§lСнаряд для пушки
+item.lw:money=§6§lМонета
+item.lw:fireball=§c§lОгненный шар
+item.lw:blueprint=§sПустой чертеж
+item.lw:chip=§dЧип
+item.lw:circuit_board=§qПлата
 
 raid.name=Рэйд	#
 raid.progress=Осталось мобов:	#
@@ -19,7 +15,7 @@ raid.defeat=Поражение	#
 
 enchantment.mending=§7Починка	#
 enchantment.durability=§7Неразрушимость	#
-enchantment.curse.binding=Проклятие связи	#
+enchantment.curse.binding=Проклятие несьемности	#
 enchantment.curse.vanishing=Проклятие утраты	#
 
 enchantment.arrowDamage=§fСила	#
@@ -68,6 +64,8 @@ enchantment.tridentLoyalty=§7Верность	#
 enchantment.tridentRiptide=§7Тягун	#
 enchantment.tridentImpaling=§7Пронзание	#
 
+## Untranslated. Those strings should be left as is. 
+## They will be copied to other lang files at the compile-time
 enchantment.level.1=§c▌§7▌▌▌▌ §f1	#
 enchantment.level.2=§g▌▌§7▌▌▌ §f2	#
 enchantment.level.3=§b▌▌▌§7▌▌ §f3	#
@@ -79,3 +77,13 @@ enchantment.level.8=§9▌▌▌▌▌▌▌▌▌▌§7▌▌ §f8	#
 enchantment.level.9=§6▌▌▌▌▌▌▌▌▌▌▌§7▌ §f9	#
 enchantment.level.10=§a▌▌▌▌▌▌▌▌▌▌▌▌▌▌ §f10	#
   
+commands.reload.success=§9│	#§r
+
+map.position=XYZ: §c%s, §a%s, §b%s	#§r
+
+multiplayer.player.joined=§a+ §7%s	#§r
+multiplayer.player.left=§c- §7%s	#§r
+### Translated strings again
+
+multiplayer.player.changeToPersona=§7%s §8Скин сменён	#§r
+multiplayer.player.changeToSkin=§7%s §8Скин сменён на внешний	#§r

@@ -12,10 +12,7 @@
       "geometry": {
         "default": "geometry.grave"
       },
-      "render_controllers": ["controller.render.default"],
-      "spawn_egg": {
-        "texture": "cannon_spawn_egg"
-      }
+      "render_controllers": ["controller.render.default"]
     }
   }
 }

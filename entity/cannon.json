@@ -14,7 +14,7 @@
       },
       "render_controllers": ["controller.render.default"],
       "spawn_egg": {
-        "texture": "cannon_spawn_egg"
+        "texture": "cannon"
       }
     }
   }
