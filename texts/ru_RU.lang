@@ -1,9 +1,8 @@
-item.lw:menu=§b§lМеню
-entity.lw:cannon.name=§6Пушка
+item.lw:menu=§bМеню
 item.spawn_egg.entity.lw:cannon.name=§6Пушка
 item.lw:cannon_shell=§6Снаряд для пушки
-item.lw:money=§6§lМонета
-item.lw:fireball=§c§lОгненный шар
+item.lw:money=§eМонета
+item.lw:fireball=§cОгненный шар
 item.lw:blueprint=§sПустой чертеж
 item.lw:chip=§dЧип
 item.lw:circuit_board=§qПлата
