@@ -30,7 +30,7 @@
       {
         "second": {
           "type": "panel",
-          "size": ["100%с", "100%c"],
+          "size": ["100c%", "100%c"],
           "anchor_from": "center",
           "anchor_to": "center",
           "offset": [0, 0],
@@ -40,7 +40,7 @@
               "long_form_dynamic_buttons_panel": {
                 "type": "grid",
                 "offset": [0, 6],
-                "size": ["100%с", "100%c"],
+                "size": ["100c%", "100%c"],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "grid_rescaling_type": "horizontal",
