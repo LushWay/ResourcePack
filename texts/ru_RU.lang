@@ -1,11 +1,12 @@
-item.lw:menu=§bМеню
+item.lw:menu=§b§lМеню§r~LINEBREAK~§7Использовать
 item.spawn_egg.entity.lw:cannon.name=§6Пушка
 item.lw:cannon_shell=§6Снаряд для пушки
-item.lw:money=§eМонета
 item.lw:fireball=§cОгненный шар
+item.lw:money=§eМонета~LINEBREAK~§7Используйте, чтобы добавить на свой счет
 item.lw:blueprint=§sПустой чертеж
 item.lw:chip=§dЧип
 item.lw:circuit_board=§qПлата
+item.lw:key=§6Ключ
 
 raid.name=Рэйд	#
 raid.progress=Осталось мобов:	#

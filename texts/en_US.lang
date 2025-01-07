@@ -1,11 +1,12 @@
 multiplayer.player.changeToPersona=§7%s §8Skin changed	#§r
 multiplayer.player.changeToSkin=§7%s §8Skin changed to external	#§r
 
-item.lw:menu=§bMenu
+item.lw:menu=§b§lMenu§r~LINEBREAK~§7Use
 item.spawn_egg.entity.lw:cannon.name=§6Cannon
 item.lw:cannon_shell=§6Cannon shell
-item.lw:money=§eMoney
+item.lw:money=§eMoney~LINEBREAK~§7Use to add to your score
 item.lw:fireball=§cFireball
 item.lw:blueprint=§sEmpty blueprint
 item.lw:chip=§dChip
 item.lw:circuit_board=§qCircuit board
+item.lw:key=§6Key
