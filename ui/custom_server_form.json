@@ -2,7 +2,7 @@
   "namespace": "custom_server_form",
   "panel": {
     "type": "image",
-    "size": [300, 200],
+    "size": [500, "100%c"],
     "texture": "textures/ui/Dark",
     "layer": 3,
     "controls": [
