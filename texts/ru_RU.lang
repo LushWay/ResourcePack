@@ -1,13 +1,17 @@
 item.lw:menu=§b§lМеню§r~LINEBREAK~§7Использовать
 item.lw:compass0=§b§lЦель задания§r~LINEBREAK~§7Использовать
-item.spawn_egg.entity.lw:cannon.name=§6Пушка
-item.lw:cannon_shell=§6Снаряд для пушки
-item.lw:fireball=§cОгненный шар
-item.lw:money=§eМонета~LINEBREAK~§7Используйте, чтобы добавить на свой счет
+item.spawn_egg.entity.lw:cannon.name=§6Пушка§r~LINEBREAK~§7Поставьте как блок
+item.lw:cannon_shell=§6Снаряд для пушки§r~LINEBREAK~§7Используйте сидя на пушке
+item.lw:fireball=§cОгненный шар§r~LINEBREAK~§7Используйте чтобы кинуть
+item.lw:money=§eМонета~LINEBREAK~§7Используйте чтобы добавить на свой счет
 item.lw:blueprint=§sПустой чертеж
 item.lw:chip=§dЧип
 item.lw:circuit_board=§qПлата
 item.lw:key=§6Ключ
+
+map.position=XYZ: §c%s §a%s §b%s	#§r
+commands.generic.syntax=§cОшибка синтаксиса: §f%1$s§4»§c%2$s§4«§f%3$s	#§r§4»§c%2$s§4« §r
+commands.generic.unknown=§cКоманда §f%s §cне найдена	#§r
 
 raid.name=Рэйд	#
 raid.progress=Осталось мобов:	#
@@ -78,10 +82,6 @@ enchantment.level.7=§5▌▌▌▌▌▌▌▌▌§7▌▌▌ §f7	#
 enchantment.level.8=§9▌▌▌▌▌▌▌▌▌▌§7▌▌ §f8	#
 enchantment.level.9=§6▌▌▌▌▌▌▌▌▌▌▌§7▌ §f9	#
 enchantment.level.10=§a▌▌▌▌▌▌▌▌▌▌▌▌▌▌ §f10	#
-  
-commands.reload.success=§9│	#§r
-
-map.position=XYZ: §c%s, §a%s, §b%s	#§r
 
 multiplayer.player.joined=§a+ §7%s	#§r
 multiplayer.player.left=§c- §7%s	#§r

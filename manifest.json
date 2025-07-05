@@ -1,12 +1,12 @@
 {
   "format_version": 2,
   "header": {
-    "name": "SM-RP",
+    "name": "LW-RP",
     "uuid": "cd779cfb-89c5-4d17-90c7-2a032f5e221b",
     "version": [
       5,
       2,
-      227
+      302
     ],
     "min_engine_version": [
       1,

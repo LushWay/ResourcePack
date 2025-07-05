@@ -3,11 +3,15 @@ multiplayer.player.changeToSkin=§7%s §8Skin changed to external	#§r
 
 item.lw:menu=§b§lMenu§r~LINEBREAK~§7Use
 item.lw:compass0=§b§lQuest target§r~LINEBREAK~§7Use
-item.spawn_egg.entity.lw:cannon.name=§6Cannon
-item.lw:cannon_shell=§6Cannon shell
+item.spawn_egg.entity.lw:cannon.name=§6Cannon§r~LINEBREAK~§7Place as block
+item.lw:cannon_shell=§6Cannon shell§r~LINEBREAK~§7Use while sitting on cannon
 item.lw:money=§eMoney~LINEBREAK~§7Use to add to your score
-item.lw:fireball=§cFireball
+item.lw:fireball=§cFireball§r~LINEBREAK~§7Use to throw
 item.lw:blueprint=§sEmpty blueprint
 item.lw:chip=§dChip
 item.lw:circuit_board=§qCircuit board
 item.lw:key=§6Key
+
+map.position=XYZ: §c%s, §a%s, §b%s	#§r
+commands.generic.syntax=§cSyntax error: §f%1$s§4»§c%2$s§4«§f%3$s	#§r§4»§c%2$s§4« §r
+commands.generic.unknown=§cCommand §f%s §cnot found	#§r
