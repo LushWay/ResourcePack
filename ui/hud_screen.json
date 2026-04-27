@@ -332,7 +332,7 @@
 											"localize": false,
 											"font_size": "medium",
 											"offset": [0, 46],
-											"alpha": 2
+											"alpha": 1
 										}
 									}
 								]
@@ -399,8 +399,6 @@
 					{ "tip_control_3@hud.tip_control_3": {} },
 					{ "tip_control_4@hud.tip_control_4": {} },
 					{ "tip_control_5@hud.tip_control_5": {} },
-
-					{ "tip_control_sidebar@hud.tip_control_sidebar": {} },
 
 					{ "hud_tips@hud.hud_tips_top_right": {} },
 					{ "hud_tips2@hud.hud_tips_top_left": {} },
