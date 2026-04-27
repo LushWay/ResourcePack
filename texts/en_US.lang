@@ -12,10 +12,6 @@ item.lw:chip=§dChip
 item.lw:circuit_board=§qCircuit board
 item.lw:key=§6Key
 
-entity.lw:slime.name=§a§lMagic slime
-entity.lw:wither.name=§6§lRobot
-entity.lw:iron_golem.name=§b§lStonecrusher
-
 map.position=XYZ: §c%s, §a%s, §b%s	#§r
 commands.generic.syntax=§cSyntax error: §f%1$s§4»§c%2$s§4«§f%3$s	#§r§4»§c%2$s§4« §r
 commands.generic.unknown=§cCommand §f%s §cnot found	#§r

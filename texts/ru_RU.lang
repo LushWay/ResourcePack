@@ -9,10 +9,6 @@ item.lw:chip=§dЧип
 item.lw:circuit_board=§qПлата
 item.lw:key=§6Ключ
 
-entity.lw:slime.name=§a§lМагический слайм
-entity.lw:wither.name=§6§lРобот
-entity.lw:iron_golem.name=§b§lКамнедробилка
-
 map.position=XYZ: §c%s §a%s §b%s	#§r
 commands.generic.syntax=§cОшибка синтаксиса: §f%1$s§4»§c%2$s§4«§f%3$s	#§r§4»§c%2$s§4« §r
 commands.generic.unknown=§cКоманда §f%s §cне найдена	#§r
