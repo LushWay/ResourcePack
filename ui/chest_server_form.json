@@ -329,21 +329,18 @@
         "binding_collection_name": "form_buttons"
       },
       {
-        "binding_name": "#null",
         "binding_type": "view",
         "source_property_name": "(not (('%.8s' * #form_button_texture) = 'textures'))",
         "target_property_name": "#visible"
       },
       {
-        "binding_name": "#null",
         "binding_type": "view",
         "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
         "target_property_name": "#visible"
       },
       {
-        "binding_name": "#null",
         "binding_type": "view",
-        "source_property_name": "(#form_button_texture * 1)",
+        "source_property_name": "((#form_button_texture - (#form_button_texture % 65536)) / 65536)",
         "target_property_name": "#item_id_aux"
       }
     ],
