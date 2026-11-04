@@ -4,7 +4,7 @@
     "name": "LW-RP",
     "description": "test",
     "uuid": "51f844be-81cd-40d1-944f-4efa8ee83f4a",
-    "version": "5.2.326",
+    "version": "5.2.327",
     "min_engine_version": "1.26.0"
   },
   "modules": [

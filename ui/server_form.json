@@ -1,6 +1,6 @@
 {
   "namespace": "server_form",
-  "long_form2": {
+  "long_form": {
     "type": "panel",
     "controls": [
       {
@@ -154,26 +154,22 @@
                 "bindings": [
                   {
                     "binding_name": "#form_button_texture",
-                    "binding_name_override": "#texture",
                     "binding_type": "collection",
                     "binding_collection_name": "form_buttons"
                   },
                   {
-                    "binding_name": "#null",
                     "binding_type": "view",
                     "source_property_name": "(not (('%.8s' * #texture) = 'textures'))",
                     "target_property_name": "#visible"
                   },
                   {
-                    "binding_name": "#null",
                     "binding_type": "view",
                     "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
                     "target_property_name": "#visible"
                   },
                   {
-                    "binding_name": "#null",
                     "binding_type": "view",
-                    "source_property_name": "(#texture * 1)",
+                    "source_property_name": "((#form_button_texture - (#form_button_texture % 65536)) / 65536)",
                     "target_property_name": "#item_id_aux"
                   }
                 ]
