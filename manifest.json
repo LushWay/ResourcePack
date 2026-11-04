@@ -1,16 +1,17 @@
 {
-  "format_version": 2,
+  "format_version": 3,
   "header": {
     "name": "LW-RP",
+    "description": "test",
     "uuid": "51f844be-81cd-40d1-944f-4efa8ee83f4a",
-    "version": [5, 2, 325],
-    "min_engine_version": [1, 13, 0]
+    "version": "5.2.326",
+    "min_engine_version": "1.26.0"
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "b1703952-e0d0-447b-9a3b-7db39f620d13",
-      "version": [0, 0, 0]
+      "version": "0.0.0"
     }
   ]
 }
